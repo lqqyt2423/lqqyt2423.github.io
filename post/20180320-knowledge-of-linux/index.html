@@ -1,0 +1,339 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.75 'Merriweather','Georgia',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.9);font-family:'Merriweather','Georgia',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:Montserrat,sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:2.5rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.73286rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.4427rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;letter-spacing:0.140625em;text-transform:uppercase;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.83255rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.75966rem;line-height:1.1;font-style:italic;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}ul{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;list-style:disc;}ol{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:0.85rem;line-height:1.75rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1rem;line-height:1.75rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}blockquote{margin-left:-1.75rem;margin-right:1.75rem;margin-top:0;padding-bottom:0;padding-left:1.42188rem;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1.20112rem;line-height:1.75rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.32813rem solid hsla(0,0%,0%,0.9);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.75rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.75rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}li > ul{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.75rem / 2);}code{font-size:0.85rem;line-height:1.75rem;}kbd{font-size:0.85rem;line-height:1.75rem;}samp{font-size:0.85rem;line-height:1.75rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.16667rem;padding-right:1.16667rem;padding-top:0.875rem;padding-bottom:calc(0.875rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.75rem;color:hsla(0,0%,0%,0.9);font-weight:400;}blockquote cite:before{content:"— ";}ul,ol{margin-left:0;}@media only screen and (max-width:480px){ul,ol{margin-left:1.75rem;}blockquote{margin-left:-1.3125rem;margin-right:0;padding-left:0.98438rem;}}h1,h2,h3,h4,h5,h6{margin-top:3.5rem;}a{box-shadow:0 1px 0 0 currentColor;color:#007acc;text-decoration:none;}a:hover,a:active{box-shadow:none;}mark,ins{background:#007acc;color:white;padding:0.10938rem 0.21875rem;text-decoration:none;}a.gatsby-resp-image-link{box-shadow:none;}</style><style data-href="/styles.491a16106869c73de5f8.css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/static/montserrat-latin-100-191cc9f50f3b76b9617cb383f19acb7d.woff2) format("woff2"),url(/static/montserrat-latin-100-370318464551d5f25b0f0a78f374faac.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/static/montserrat-latin-100italic-bdeaeb79db315697bd173a55b097dc18.woff2) format("woff2"),url(/static/montserrat-latin-100italic-ecf7d49386e8f265878e735db34a7c4b.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/static/montserrat-latin-200-85d5ef9db7f2dc6979172a4a3b2c57cb.woff2) format("woff2"),url(/static/montserrat-latin-200-1fc98e126a3d152549240e6244d7e669.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/static/montserrat-latin-200italic-49095760a498d024fe1a85a078850df9.woff2) format("woff2"),url(/static/montserrat-latin-200italic-fe46cf8b9462c820457d3bf537e4057f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/static/montserrat-latin-300-7c3daf12b706645b5d3710f863a4da04.woff2) format("woff2"),url(/static/montserrat-latin-300-8dc95fab9cf98d02ca8d76e97d3dff60.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/static/montserrat-latin-300italic-f20b178ca2024a5eac8e42e6649db86c.woff2) format("woff2"),url(/static/montserrat-latin-300italic-3fe16939288856e8e828fa2661bf2354.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/static/montserrat-latin-400-bc3aa95dca08f5fee5291e34959c27bc.woff2) format("woff2"),url(/static/montserrat-latin-400-8102c4838f9e3d08dad644290a9cb701.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/static/montserrat-latin-400italic-5cad650422a7184467af5a4d17b264c4.woff2) format("woff2"),url(/static/montserrat-latin-400italic-d191f22af3bb50902b99ac577f81a322.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/static/montserrat-latin-500-92d16e458625f4d2c8940f6bdca0ff09.woff2) format("woff2"),url(/static/montserrat-latin-500-8b763220218ffc11c57c84ddb80e7b26.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/static/montserrat-latin-500italic-47bfcca6b69d6a9acca7a8bff17193e2.woff2) format("woff2"),url(/static/montserrat-latin-500italic-72c01f753c3940c0b9cb6bf2389caddf.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/static/montserrat-latin-600-6fb1b5623e528e27c18658fecf5ee0ee.woff2) format("woff2"),url(/static/montserrat-latin-600-7c839d15a6f54e7025ba8c0c4b333e8f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/static/montserrat-latin-600italic-60789af1c9338ed1a9546722ec54b4f7.woff2) format("woff2"),url(/static/montserrat-latin-600italic-f3d4de8d0afb19e777c79032ce828e3d.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/static/montserrat-latin-700-39d93cf678c740f9f6b2b1cfde34bee3.woff2) format("woff2"),url(/static/montserrat-latin-700-80f10bd382f0df1cd650fec59f3c9394.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/static/montserrat-latin-700italic-ba136d97b14e82284dd595e257f11c47.woff2) format("woff2"),url(/static/montserrat-latin-700italic-8c98142b425630821139c24bd1698700.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/static/montserrat-latin-800-b7018be9ed6cd94da8b6675b3a468c3b.woff2) format("woff2"),url(/static/montserrat-latin-800-9a9befcf50d64f9d2d19d8b1d1984add.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/static/montserrat-latin-800italic-540ffdd223d1a9ad3d4e678e1a23372e.woff2) format("woff2"),url(/static/montserrat-latin-800italic-897086f99f4e1f45e6b1e9368527d0bc.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/static/montserrat-latin-900-58cd789700850375b834e8b6776002eb.woff2) format("woff2"),url(/static/montserrat-latin-900-26d42c9428780e545a540bbb50c84bce.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/static/montserrat-latin-900italic-451157bc8861fe54f523b3669a3def71.woff2) format("woff2"),url(/static/montserrat-latin-900italic-a8ec4957e1c24f5793305763ad9845b3.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/static/merriweather-latin-300-b1158cfcd4aacb9d8fb61625e37af46a.woff2) format("woff2"),url(/static/merriweather-latin-300-cc7de05e166e90320d7d896e0f72a19d.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/static/merriweather-latin-300italic-8fe52a48089d6ebe46db0b8e7cc66263.woff2) format("woff2"),url(/static/merriweather-latin-300italic-e1331f5397c2a673f9d3765138debdb5.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/static/merriweather-latin-400-8276fdb72ae8f4714d4e6eba704cc39f.woff2) format("woff2"),url(/static/merriweather-latin-400-69f09800f4f6479d06e44eba837df872.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/static/merriweather-latin-400italic-3a9be9ea9f7aa4af6de7307df21d9fc0.woff2) format("woff2"),url(/static/merriweather-latin-400italic-d76079ed7541a433a54f79316de086e9.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/static/merriweather-latin-700-fa534be7ffa380e39a7f6e03bf9a5e03.woff2) format("woff2"),url(/static/merriweather-latin-700-ba56ea84b8084b7ff9677f50d3cd81bd.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/static/merriweather-latin-700italic-1ef5edaaa20ae53ea50399884c5e48c6.woff2) format("woff2"),url(/static/merriweather-latin-700italic-534bc9e7ce93c73d73426e46acd78092.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/static/merriweather-latin-900-7528fb70e8a4a82c7305e72ff43ac25f.woff2) format("woff2"),url(/static/merriweather-latin-900-3799b6e2f5ed3fcccf9d7a708d7419fa.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/static/merriweather-latin-900italic-e1b4d2aaa78e12ad84aaf8a56321e4c2.woff2) format("woff2"),url(/static/merriweather-latin-900italic-2ae22f731b3424e8dbb4b37f7ca6e708.woff) format("woff")}code[class*=language-],pre[class*=language-]{color:#000;background:none;text-shadow:0 1px #fff;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.token.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}</style><meta name="generator" content="Gatsby 2.21.13"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="icon" href="/favicon-32x32.png?v=91beeefb9e415739fef62dcc10c4d546"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=91beeefb9e415739fef62dcc10c4d546"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=91beeefb9e415739fef62dcc10c4d546"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=91beeefb9e415739fef62dcc10c4d546"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=91beeefb9e415739fef62dcc10c4d546"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=91beeefb9e415739fef62dcc10c4d546"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=91beeefb9e415739fef62dcc10c4d546"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=91beeefb9e415739fef62dcc10c4d546"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=91beeefb9e415739fef62dcc10c4d546"/><title data-react-helmet="true">Linux 知识点 | lqqyt2423&#x27;s blog</title><meta data-react-helmet="true" name="description" content="文档/帮助相关 man 页面中标题旁代号的意思 1 使用者在shell环境中可以操作的命令或可运行文件 2 系统核心可呼叫的函数与工具等 3 一些常用的函数(function)与函式库(library)，大部分为C的函式库(libc) 4 装置文件的说明，通常在/dev下的文件 5 配置文件或者是某些文件的格式…"/><meta data-react-helmet="true" property="og:title" content="Linux 知识点"/><meta data-react-helmet="true" property="og:description" content="文档/帮助相关 man 页面中标题旁代号的意思 1 使用者在shell环境中可以操作的命令或可运行文件 2 系统核心可呼叫的函数与工具等 3 一些常用的函数(function)与函式库(library)，大部分为C的函式库(libc) 4 装置文件的说明，通常在/dev下的文件 5 配置文件或者是某些文件的格式…"/><meta data-react-helmet="true" property="og:type" content="website"/><link as="script" rel="preload" href="/webpack-runtime-0df63275f2c0d3fbc9da.js"/><link as="script" rel="preload" href="/framework-5dd3c501fd049989ea3a.js"/><link as="script" rel="preload" href="/styles-37d63a57eaf6d055b3bc.js"/><link as="script" rel="preload" href="/app-3db1551ace671f07a932.js"/><link as="script" rel="preload" href="/commons-a3a9788009a5fa07c105.js"/><link as="script" rel="preload" href="/453e4dc8321690ed32f5449d9e741446843fbcaf-fa351f3bfeff8a8d4399.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-e617e17216a668ed3111.js"/><link as="fetch" rel="preload" href="/page-data/post/20180320-knowledge-of-linux/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><header><h3 style="font-family:Montserrat, sans-serif;margin-top:0"><a style="box-shadow:none;color:inherit" href="/">lqqyt2423&#x27;s blog</a></h3></header><main><article><header><h1 style="margin-top:1.75rem;margin-bottom:0">Linux 知识点</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem">March 19, 2018</p></header><section><h2>文档/帮助相关</h2>
+<p>man 页面中标题旁代号的意思</p>
+<ul>
+<li>1 使用者在shell环境中可以操作的命令或可运行文件</li>
+<li>2 系统核心可呼叫的函数与工具等</li>
+<li>3 一些常用的函数(function)与函式库(library)，大部分为C的函式库(libc)</li>
+<li>4 装置文件的说明，通常在/dev下的文件</li>
+<li>5 配置文件或者是某些文件的格式</li>
+<li>6 游戏(games)</li>
+<li>7 惯例与协议等，例如Linux文件系统、网络协议、ASCII code等等的说明</li>
+<li>8 系统管理员可用的管理命令</li>
+<li>9 跟kernel有关的文件</li>
+</ul>
+<p>man 页面各个分级内容的意思</p>
+<ul>
+<li>NAME  简短的命令、数据名称说明</li>
+<li>SYNOPSIS  简短的命令下达语法(syntax)简介</li>
+<li>DESCRIPTION 较为完整的说明，这部分最好仔细看看！</li>
+<li>OPTIONS 针对 SYNOPSIS 部分中，有列举的所有可用的选项说明</li>
+<li>COMMANDS  当这个程序(软件)在运行的时候，可以在此程序(软件)中下达的命令</li>
+<li>FILES 这个程序或数据所使用或参考或连结到的某些文件</li>
+<li>SEE ALSO  可以参考的，跟这个命令或数据有相关的其他说明！</li>
+<li>EXAMPLE 一些可以参考的范例</li>
+<li>BUGS  是否有相关的臭虫！</li>
+</ul>
+<p>放文档的地址：<code class="language-text">/usr/share/doc</code></p>
+<h2>检查Linux 状态时有用的命令</h2>
+<p>如果要看目前有谁在在线，可以下达『who』这个命令
+如果要看网络的联机状态，可以下达 『 netstat -a 』这个命令
+要看背景运行的程序可以运行『 ps -aux 』这个命令。</p>
+<h2>Linux系统里面账号、密码、群组信息的保存位置</h2>
+<p>所有的系统上的账号与一般身份使用者，还有那个root的相关信息， 都是记录在/etc/passwd这个文件内的
+个人的密码则是记录在/etc/shadow这个文件下
+所有的组名都纪录在/etc/group内</p>
+<h2>修改文件属性与权限</h2>
+<ul>
+<li>chgrp: 改变文件所属群组 --- 要被改变的组名必须要在/etc/group 文件内存在才行</li>
+<li>chown: 改变文件拥有者 --- 在/etc/passwd 这个文件中有纪录的用户名称才能改变</li>
+<li>chmod: 改变文件的权限, SUID, SGID, SBIT 等等的特性</li>
+</ul>
+<h2>Filesystem Hierarchy Standard (FHS)</h2>
+<ul>
+<li>/bin 系统有很多放置执行文件的目录，但/bin 比较特殊。因为/bin 放置的是在单人维护模式下还能够被操作的指令</li>
+<li>/boot 这个目录主要在放置开机会使用到的文件，包括 Linux 核心文件以及开机选单与开机所需配置文件等</li>
+<li>/dev 在 Linux 系统上，任何装置与接口设备都是以文件的型态存在于这个目录当中的</li>
+<li>/etc 系统主要的配置文件几乎都放置在这个目录内</li>
+<li>/lib 在开机时会用到的函式库， 以及在/bin 或/sbin 底下的指令 会呼叫的函式库而已</li>
+<li>/srv 可以视为『service』的缩写，是一些网络服务启动之后，这些服务所需要取用的数据目录</li>
+<li>/usr /usr 里面放置的数据属于可分享的与不可变动的，usr 是 Unix Software Resource 的缩写， 也就是『Unix 操 作系统软件资源』所放置的目录</li>
+<li>/var 主要针对常态性变动的文件，包括快取(cache)、登录档(log file)以及某些软件运 作所产生的文件</li>
+</ul>
+<h3>usr</h3>
+<ul>
+<li>/usr/bin 所有一般用户能够使用的指令都放在这里</li>
+<li>/usr/local 系统管理员在本机自行安装自己下载的软件(非 distribution 默认提供者)，建议安装到此目录， 这 样会比较便于管理</li>
+<li>/usr/share 主要放置只读架构的数据文件，当然也包括共享文件。在这个目录下放置的数据几乎是不分硬件 架构均可读取的数据， 因为几乎都是文本文件</li>
+<li>/usr/src 一般原始码建议放置到这里，src 有 source 的意思。至于核心原始码则建议放置到/usr/src/linux/ 目录下</li>
+</ul>
+<h3>var</h3>
+<ul>
+<li>/var/cache 应用程序本身运作过程中会产生的一些暂存档</li>
+<li>/var/lib 程序本身执行的过程中，需要使用到的数据文件放置的目录</li>
+<li>/var/log 重要到不行!这是登录文件放置的目录!里面比较重要的文件如/var/log/messages, /var/log/wtmp(记 录登入者的信息)等</li>
+<li>/var/mail 放置个人电子邮件信箱的目录</li>
+<li>/var/run 某些程序或者是服务启动后，会将他们的 PID 放置在这个目录下</li>
+</ul>
+<h2>文件内容查阅</h2>
+<ul>
+<li>cat 由第一行开始显示文件内容</li>
+<li>tac 从最后一行开始显示，可以看出 tac 是 cat 的倒着写</li>
+<li>nl 显示的时候，顺道输出行号 --- cat -n</li>
+<li>more 一页一页的显示文件内容</li>
+<li>less 与 more 类似，但是比 more 更好的是，他可以往前翻页</li>
+<li>head 只看头几行</li>
+<li>tail 只看尾巴几行</li>
+<li>od 以二进制的方式读取文件内容</li>
+</ul>
+<p>举例：显示10到20行的数据 <code class="language-text">cat ./file.txt | head -n 20 | tail -n 10</code></p>
+<h2>文件系统的运作</h2>
+<p>文件系统通常会将这两部份的数据分别存放在不同的区块，权限与属性放置到 inode 中，至于实际数据则放置到 data block 区块中。 另外，还有一个超级区块 (superblock) 会记 录整个文件系统的整体信息，包括 inode 与 block 的总量、使用量、剩余量等。</p>
+<p>每个 inode 与 block 都有编号，至于这三个数据的意义可以简略说明如下：</p>
+<ul>
+<li>superblock 记录此 filesystem 的整体信息，包括 inode/block 的总量、使用量、剩余量， 以及文件系统的 格式与相关信息等</li>
+<li>inode 记录文件的属性，一个文件占用一个 inode，同时记录此文件的数据所在的 block 号码</li>
+<li>block 实际记录文件的内容，若文件太大时，会占用多个 block</li>
+</ul>
+<h3>inode 记录的文件数据</h3>
+<ul>
+<li>该文件的存取模式(read/write/excute)</li>
+<li>该文件的拥有者与群组(owner/group)</li>
+<li>该文件的容量</li>
+<li>该文件建立或状态改变的时间(ctime)</li>
+<li>最近一次的读取时间(atime)</li>
+<li>最近修改的时间(mtime)</li>
+<li>定义文件特性的旗标(flag)，如 SetUID…</li>
+<li>该文件真正内容的指向 (pointer)</li>
+</ul>
+<h2>压缩指令</h2>
+<h3>常见的压缩文件扩展名</h3>
+<ul>
+<li>*.Z compress 程序压缩的文件;</li>
+<li>*.zip zip 程序压缩的文件;</li>
+<li>*.gz gzip 程序压缩的文件;</li>
+<li>*.bz2 bzip2 程序压缩的文件;</li>
+<li>*.xz xz 程序压缩的文件;</li>
+<li>*.tar tar 程序打包的数据，并没有压缩过;</li>
+<li>*.tar.gz tar 程序打包的文件，其中并且经过 gzip 的压缩</li>
+<li>*.tar.bz2 tar 程序打包的文件，其中并且经过 bzip2 的压缩</li>
+<li>*.tar.xz tar 程序打包的文件，其中并且经过 xz 的压缩</li>
+</ul>
+<h3>常用压缩命令</h3>
+<ul>
+<li>压缩某文件，不保留源文件：<code class="language-text">gzip 1.txt</code></li>
+<li>解压缩某文件，不保留源文件：<code class="language-text">gzip -d 1.txt.gz</code></li>
+<li>压缩文件输出流，可重导向：<code class="language-text">gzip -c 1.txt &gt; 1.txt.gz</code></li>
+<li><code class="language-text">bzip2</code>和<code class="language-text">xz</code>命令与上面3个相同，之后后缀改为<code class="language-text">bz2</code></li>
+<li><code class="language-text">bzip2</code>和<code class="language-text">xz</code> 多了个<code class="language-text">-k</code>的参数，保留源文件</li>
+</ul>
+<h3>打包指令tar</h3>
+<ul>
+<li>打包与压缩 <code class="language-text">tar [-z|-j|-J] [cv] [-f 待建立的新檔名] filename...</code></li>
+<li>查看包含的文件名称 <code class="language-text">tar [-z|-j|-J] [tv] [-f 既有的 tar 檔名]</code></li>
+<li>解压缩 <code class="language-text">tar [-z|-j|-J] [xv] [-f 既有的 tar 檔名] [-C 目录]</code></li>
+</ul>
+<p><code class="language-text">-z gzip | -j bzip2 | -J xz</code></p>
+<h2>bash</h2>
+<ul>
+<li>打印变量: <code class="language-text">echo $PATH</code></li>
+<li>设置变量: <code class="language-text">name=value</code></li>
+<li>可使用字符<code class="language-text">\</code> 将特殊字符变为一般字符</li>
+<li>若该变量为扩增变量内容时，则可用 “$变量名称” 或 ${变量} 累加内容</li>
+<li>若该变量需要在其他子程序执行，则需要以 <code class="language-text">export</code> 来使变量变成环境变量</li>
+<li>通常大写字符为系统默认变量，自行设定变量可以使用小写字符，方便判断</li>
+<li>取消变量的方法为使用 unset :『unset 变量名称』</li>
+<li><code class="language-text">env</code>或 <code class="language-text">export</code> 可列出环境变量</li>
+<li><code class="language-text">set</code> 观察所有变量 (含环境变量与自定义变量)</li>
+<li>基本上，在 Linux 预设的情况中，使用{大写的字母}来设定的变量 一般为系统内定需要的变量</li>
+<li><code class="language-text">export</code>: 自定义变量转成环境变量</li>
+<li><code class="language-text">alias</code>: 设置别名</li>
+<li><code class="language-text">unalias</code>: 取消别名</li>
+<li>bash 的进站与欢迎讯息: <code class="language-text">/etc/issue, /etc/motd</code></li>
+<li><code class="language-text">stty -a</code> 来列出目前环境中所有的按键列表</li>
+</ul>
+<p>设置变量时双引号和单引号的功能不同：</p>
+<ul>
+<li>双引号内的特殊字符如 $ 等，可以保有原本的特性</li>
+<li>单引号内的特殊字符则仅为一般字符 (纯文本)</li>
+</ul>
+<h3><code class="language-text">stty</code> 列出的含义</h3>
+<ul>
+<li>intr : 送出一个 interrupt (中断) 的讯号给目前正在 run 的程序 (就是终止啰!);</li>
+<li>quit : 送出一个 quit 的讯号给目前正在 run 的程序;</li>
+<li>erase : 向后删除字符，</li>
+<li>kill : 删除在目前指令列上的所有文字;</li>
+<li>eof : End of file 的意思，代表『结束输入』。</li>
+<li>start : 在某个程序停止后，重新启动他的 output</li>
+<li>stop : 停止目前屏幕的输出;</li>
+<li>susp : 送出一个 terminal stop 的讯号给正在 run 的程序</li>
+</ul>
+<h3>快捷键对应的功能</h3>
+<ul>
+<li>CTRL + C: 终止目前的命令</li>
+<li>CTRL + D: 输入结束EOF</li>
+<li>CTRL + M: Enter</li>
+<li>CTRL + S: 暂停屏幕的输出</li>
+<li>CTRL + Q: 恢复屏幕的输出</li>
+<li>CTRL + U: 在提示字符下，将整列命令删除</li>
+<li>CTRL + Z: 『暂停』目前的命令</li>
+</ul>
+<h3>数据流重导向</h3>
+<p><code class="language-text">&gt;</code> 为覆盖 <code class="language-text">&gt;&gt;</code> 为累加</p>
+<ul>
+<li>标准输入 stdin 代码为0 使用<code class="language-text">&lt;</code> 或<code class="language-text">&lt;&lt;</code></li>
+<li>标准输出 stdout 代码为1 使用<code class="language-text">&gt;</code> 或<code class="language-text">&gt;&gt;</code></li>
+<li>标准错误输出 stderr 代码为2 使用<code class="language-text">2&gt;</code> 或<code class="language-text">2&gt;&gt;</code></li>
+</ul>
+<p>举例：</p>
+<p>将标准输出和标准错误输出分别保存至两个文件中：</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">find</span> /home -name .bashrc <span class="token operator">></span> list_right <span class="token operator"><span class="token file-descriptor important">2</span>></span> list_error</code></pre></div>
+<p>不显示标准错误输出（导入到<code class="language-text">/dev/null</code> 中）：</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">find</span> /home -name .bashrc <span class="token operator"><span class="token file-descriptor important">2</span>></span> /dev/null</code></pre></div>
+<p>不区分标准输出和错误，一起导入到一个文件中：</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">find</span> /home -name .bashrc <span class="token operator">></span> list <span class="token operator"><span class="token file-descriptor important">2</span>></span><span class="token file-descriptor important">&amp;1</span></code></pre></div>
+<h2>账号管理、权限设置</h2>
+<p>命令相关：</p>
+<ul>
+<li>新增使用者：<code class="language-text">useradd</code></li>
+<li>设置账号密码：<code class="language-text">passwd</code></li>
+<li>更新使用者配置：<code class="language-text">usermod</code></li>
+<li>删除y用户相关数据：<code class="language-text">userdel</code></li>
+<li>查询uid/gid等信息：<code class="language-text">id</code></li>
+<li>change shell： <code class="language-text">chsh</code></li>
+<li>添加群组：<code class="language-text">groupadd</code></li>
+<li>修改群组配置：<code class="language-text">groupmod</code></li>
+<li>删除群组：<code class="language-text">groupdel</code></li>
+<li>群组管理员功能：<code class="language-text">gpasswd</code></li>
+<li>使用者身份切换：<code class="language-text">su</code>, <code class="language-text">sudo</code></li>
+<li>查询使用者：<code class="language-text">w</code>, <code class="language-text">who</code>, <code class="language-text">last</code>, <code class="language-text">lastlog</code></li>
+<li>邮件：<code class="language-text">mail</code></li>
+</ul>
+<h2>例行性工作进程</h2>
+<p>无论是<code class="language-text">at</code> 还是<code class="language-text">crontab</code>，它们的最小时间单位都是<strong>分钟</strong>，在<strong>整分钟时间</strong>运行，即秒为0的时候运行。</p>
+<h3>仅执行一次的工作排程 at</h3>
+<p>必须有<code class="language-text">atd</code> 进程运行，才会执行<code class="language-text">at</code> 中设定的工作。用<code class="language-text">at</code> 添加工作进程后，实际上是将此工作以文本方式写入至目录<code class="language-text">/var/spool/at/</code> 中，然后该工作便能等待<code class="language-text">atd</code> 的取用和执行了。</p>
+<p>可以使用<code class="language-text">/etc/at.allow</code> 和<code class="language-text">/etc/at.deny</code> 两个文件对使用<code class="language-text">at</code> 命令的用户作出限制。</p>
+<p>命令</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">at <span class="token punctuation">[</span>-mldv<span class="token punctuation">]</span> TIME</code></pre></div>
+<ul>
+<li><code class="language-text">-c</code>，列出某一项排程内容</li>
+<li><code class="language-text">-l</code> 相当于<code class="language-text">atq</code>，列出排程</li>
+<li><code class="language-text">-d</code> 相当于<code class="language-text">atrm</code>，删除某一排程</li>
+</ul>
+<p>TIME 的设定规则举例：</p>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">at 04:00
+at 04:00 <span class="token number">2018</span>-05-05
+at now + <span class="token number">3</span> days
+at now + <span class="token number">1</span> minute</code></pre></div>
+<ul>
+<li><code class="language-text">at</code> 排程执行时是用的下达命令时所在的目录，所以为避免出错，目录相关设置可设置为绝对目录。</li>
+<li><code class="language-text">at</code> 是背景执行的，类似于<code class="language-text">nohup</code></li>
+</ul>
+<h3>系统有空时才进行的背景任务 batch</h3>
+<p>会在CPU负载小于0.8时，才进行所下达的任务。</p>
+<blockquote>
+<p>负载：CPU在单一时间点所负责的工作数量，而非CPU使用率。CPU负载越大，会频繁地在不同任务之间切换。命令<code class="language-text">uptime</code> 可看到负载信息。</p>
+</blockquote>
+<p><code class="language-text">batch</code> 也是用<code class="language-text">atq/atrm</code> 来管理的。</p>
+<h3>循环执行的例行性工作排程</h3>
+<p>循环执行的例行性工作排程则是由<code class="language-text">cron(crond)</code> 这个系统服务来控制的。</p>
+<p>可以使用<code class="language-text">/etc/cron.allow</code> 和<code class="language-text">/etc/cron.deny</code> 两个文件对使用<code class="language-text">crontab</code> 命令的用户作出限制。</p>
+<p>当用户使用<code class="language-text">crontab</code> 这个指令来建立工作排程之后，该项工作就会被纪录到<code class="language-text">/var/spool/cron/</code> 里面去了，而且是以账号来作为判别的。</p>
+<p><code class="language-text">crontab [-e][-l][-r]</code></p>
+<ul>
+<li><code class="language-text">-e</code> 编辑工作内容</li>
+<li><code class="language-text">-l</code> 查阅工作内容</li>
+<li><code class="language-text">-r</code> 移除所有工作内容</li>
+</ul>
+<p>编辑工作内容，示例：</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">0-59 * * * * date &gt;&gt; 1.txt
+分 时 日 月 周 指令</code></pre></div>
+<p>特殊字符包括：星号*、逗号,、减号-、斜线/n</p>
+<p>命令内容建议使用<strong>绝对路径</strong>。</p>
+<p>如果是<strong>系统的例行性任务</strong>，可以直接编辑<code class="language-text">/etc/crontab</code> 文件。</p>
+<p><code class="language-text">crond</code> 预设有三个地方有会执行脚本配置文件：</p>
+<ul>
+<li><code class="language-text">/etc/crontab</code> 系统维护管理</li>
+<li><code class="language-text">/etc/cron.d/*</code> 自己开发软件</li>
+<li><code class="language-text">/var/spool/cron/*</code> 个人行为</li>
+</ul>
+<blockquote>
+<p><code class="language-text">anacron</code> 可唤醒停机时间的工作任务</p>
+</blockquote>
+<h2>进程管理</h2>
+<p>程序被触发后，执行者的权限与属性、程序的程序代码与所需数据等都会被加载内存中，操作系统并给予这个内存内的单元一个标识符 (PID)，可以说，进程就是一个正在运作中的程序。</p>
+<p>子进程的PPID与父进程的PID相等。</p>
+<ul>
+<li><code class="language-text">&amp;</code> 将工作丢到背景中执行</li>
+<li><code class="language-text">ctrl + z</code> 将目前工作丢到背景中暂停</li>
+<li><code class="language-text">jobs</code> 观察目前背景中工作状态</li>
+<li><code class="language-text">fg %jobnumber</code> 将背景工作拿到前景来处理</li>
+<li><code class="language-text">bg</code> 将背景中暂停的工作变成运行状态</li>
+<li><code class="language-text">kill PID</code> 给某进程发送信号</li>
+<li><code class="language-text">killall name</code> 给相关的所有进程发送信号</li>
+<li><code class="language-text">nohup</code> 脱机管理工作</li>
+<li><code class="language-text">nice/renice</code> 调整优先级</li>
+</ul>
+<p><code class="language-text">kill/killall</code> 讯号signal：</p>
+<ul>
+<li><code class="language-text">-9</code> 强制删除一个工作</li>
+<li><code class="language-text">-15</code> 正常步骤结束一个工作（默认）</li>
+</ul>
+<h3>进程观察</h3>
+<p><code class="language-text">ps</code> 将某个时间点的进程显示出来</p>
+<ul>
+<li><code class="language-text">ps -l</code> 当前<code class="language-text">bash</code> 的进程</li>
+<li><code class="language-text">ps aux</code> 所有系统运作的进程</li>
+</ul>
+<p><code class="language-text">top</code> 动态观察进程的状态，执行过程中可以使用指令：</p>
+<ul>
+<li>P 以CPU 使用资源排序</li>
+<li>M 以Memory 使用资源排序</li>
+<li>N 以PID 排序</li>
+<li>k 给予某个PID 一个signal</li>
+</ul>
+<p><code class="language-text">pstree</code> 列出进程树，<code class="language-text">-p</code> 同时列出PID</p>
+<h3>系统资源的观察</h3>
+<ul>
+<li><code class="language-text">free</code> 观察内存使用情况</li>
+<li><code class="language-text">uname</code> 查阅系统与核心相关信息</li>
+<li><code class="language-text">uptime</code> 观察系统启动时间与工作负载</li>
+<li><code class="language-text">netstat</code> 追踪网络或插槽文件</li>
+<li><code class="language-text">dmesg</code> 分析核心产生的讯息</li>
+<li><code class="language-text">vmstat</code> 侦测系统资源变化</li>
+</ul>
+<p><code class="language-text">netstat</code> 参数</p>
+<ul>
+<li><code class="language-text">-a</code> 将目前系统上所有的联机、监听、Socket 数据都列出来</li>
+<li><code class="language-text">-t</code> 列出tcp 网络封包的数据</li>
+<li><code class="language-text">-u</code> 列出udp 网络封包的数据</li>
+<li><code class="language-text">-n</code> 不以进程的服务名称，以端口号来显示</li>
+<li><code class="language-text">-l</code> 列出目前正在网络监听的服务（listing）</li>
+<li><code class="language-text">-p</code> 列出改网络服务的进程PID</li>
+</ul>
+<p>常用命令<code class="language-text">netstat -tulnp</code></p>
+<h2>系统服务 daemon</h2>
+<p>早起所有的服务启动脚本通通放置于<code class="language-text">/etc/init.d/</code> 底下，现在用<code class="language-text">systemd</code> 来进行管理。</p>
+<p><code class="language-text">systemd</code> 配置文件放置目录：</p>
+<ul>
+<li><code class="language-text">/usr/lib/systemd/system/</code></li>
+<li><code class="language-text">/run/systemd/system/</code></li>
+<li><code class="language-text">/etc/systemd/system/</code></li>
+</ul>
+<p>通过<code class="language-text">systemctl</code> 指令管理</p>
+<p><code class="language-text">systemctl [command] [unit]</code></p>
+<ul>
+<li>start</li>
+<li>stop</li>
+<li>restart</li>
+<li>reload 重载配置文件</li>
+<li>enable 下次开机时启动</li>
+<li>disable 下次开机时不启动</li>
+<li>status 状态</li>
+</ul>
+<p>直接<code class="language-text">systemctl</code> 列出系统上启动的<code class="language-text">unit</code></p>
+<h2>软件安装</h2>
+<h3>通过源码安装</h3>
+<p>一般步骤为：通过<code class="language-text">configure</code> 来建立<code class="language-text">Makefile</code>，之后通过<code class="language-text">make</code> 安装即可。</p>
+<p><code class="language-text">Makefile</code> 示例：</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">main:
+	ps aux &gt;&gt; 1.txt
+clean:
+	rm 1.txt</code></pre></div>
+<h3>软件安装</h3>
+<p>Red Hat/Fedora, RPM, rpm, yum</p>
+<p>Debian/Ubuntu, DPKG, dpkg, apt-get</p></section><hr style="margin-bottom:1.75rem"/><footer><div style="display:flex;margin-bottom:4.375rem"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:50px;height:50px;margin-right:0.875rem;margin-bottom:0;min-width:50px;border-radius:100%"><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBQL/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgT/2gAMAwEAAhADEAAAAZ6GtBn00V8nGSXIM//EABwQAAICAgMAAAAAAAAAAAAAAAEDAhEAFBIxM//aAAgBAQABBQJ3nydZm+5CwehgbIo2Jg7LM//EABcRAQEBAQAAAAAAAAAAAAAAAAARARL/2gAIAQMBAT8BlctXX//EABgRAAIDAAAAAAAAAAAAAAAAAAABEBEx/9oACAECAQE/AcLFH//EAB0QAAEEAgMAAAAAAAAAAAAAAAABAhFBEDEhgZH/2gAIAQEABj8CU30cQRjQ59oUV4f/xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhMUFRYXH/2gAIAQEAAT8hukbmD64QTMF9S1UV6QCQxqyVFUEHye8P/9oADAMBAAIAAwAAABAMP/3/xAAYEQEBAAMAAAAAAAAAAAAAAAAAATFhcf/aAAgBAwEBPxAdLsw3P//EABkRAQEAAwEAAAAAAAAAAAAAAAEAETFhcf/aAAgBAgEBPxA4vEB3YL//xAAcEAEAAwEBAAMAAAAAAAAAAAABABEhMbGB0eH/2gAIAQEAAT8QJyKTvKuAkEWjRQe8mUggzn3BIYyqdXW3UEqPnZgRsjM5L7Q5v2P5yf/Z" alt="lqqyt2423" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms;border-radius:50%"/><noscript><picture><source srcset="/static/b27a6947a93c31de08bd6427d5cdf25d/99438/profile-pic.jpg 1x,
+/static/b27a6947a93c31de08bd6427d5cdf25d/aba1d/profile-pic.jpg 1.5x,
+/static/b27a6947a93c31de08bd6427d5cdf25d/b315d/profile-pic.jpg 2x" /><img loading="lazy" width="50" height="50" srcset="/static/b27a6947a93c31de08bd6427d5cdf25d/99438/profile-pic.jpg 1x,
+/static/b27a6947a93c31de08bd6427d5cdf25d/aba1d/profile-pic.jpg 1.5x,
+/static/b27a6947a93c31de08bd6427d5cdf25d/b315d/profile-pic.jpg 2x" src="/static/b27a6947a93c31de08bd6427d5cdf25d/99438/profile-pic.jpg" alt="lqqyt2423" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p>Written by <strong>lqqyt2423</strong> <!-- -->who lives and works in Shanghai building useful things.<!-- --> <a href="https://github.com/lqqyt2423">You should follow him on Github</a></p></div></footer></article><nav><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/post/20180308-way-to-config-ssh-key-login/">← <!-- -->服务器设置SSH 通过密钥登录</a></li><li><a rel="next" href="/post/20180326-commands-of-git-remote/">Git 远程仓库相关的命令<!-- --> →</a></li></ul></nav></main><footer>© <!-- -->2020<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/post/20180320-knowledge-of-linux/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-3db1551ace671f07a932.js"],"component---src-pages-404-js":["/component---src-pages-404-js-ed9b337638234d604390.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx-887140cad17a72a4ce9a.js"],"component---src-templates-blog-page-tsx":["/component---src-templates-blog-page-tsx-6720eb6103de617dc81f.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-e617e17216a668ed3111.js"]};/*]]>*/</script><script src="/component---src-templates-blog-post-js-e617e17216a668ed3111.js" async=""></script><script src="/453e4dc8321690ed32f5449d9e741446843fbcaf-fa351f3bfeff8a8d4399.js" async=""></script><script src="/commons-a3a9788009a5fa07c105.js" async=""></script><script src="/app-3db1551ace671f07a932.js" async=""></script><script src="/styles-37d63a57eaf6d055b3bc.js" async=""></script><script src="/framework-5dd3c501fd049989ea3a.js" async=""></script><script src="/webpack-runtime-0df63275f2c0d3fbc9da.js" async=""></script></body></html>
